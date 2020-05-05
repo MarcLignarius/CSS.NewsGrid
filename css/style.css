@@ -159,12 +159,16 @@ p {
   padding: 1.5rem;
 }
 
-.p-1 {
-  padding: 1.5rem;
+.p-2 {
+  padding: 2rem;
 }
 
-.p-1 {
-  padding: 1.5rem;
+.p-3 {
+  padding: 3rem;
+}
+
+.l-heading {
+  font-size: 2rem;
 }
 
 .list li {
@@ -187,7 +191,7 @@ p {
 .page-container > *:first-child {
   grid-row: 1 / span 3;
 }
-}
+
 
 /* Nav */
 
