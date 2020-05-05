@@ -1,0 +1,15 @@
+#home-articles .articles-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#home-articles .articles-container > article:first-child,
+#home-articles .articles-container > article:last-child {
+  grid-template-columns: 1fr;
+  grid-column: 1;
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+  #main-nav .social {
+    font-size: 15px;
+  }
+}
