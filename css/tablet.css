@@ -12,4 +12,8 @@
   #main-nav .social {
     font-size: 15px;
   }
+
+  #showcase .showcase-container {
+    height: 100%;
+  }
 }
