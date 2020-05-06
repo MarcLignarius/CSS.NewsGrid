@@ -18,15 +18,22 @@
 
 #showcase .showcase-container,
 #home-articles .articles-container,
+.page-container,
 #main-footer .footer-container {
   grid-template-columns: 1fr;
 }
 
 #home-articles .articles-container > article:first-child,
 #home-articles .articles-container > article:last-child,
-#main-footer .footer-container > div:last-child {
+#main-footer .footer-container > div:last-child,
+.page-container > *:first-child {
   grid-template-columns: 1fr;
   grid-column: 1;
+}
+
+#article .meta {
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 #main-footer .footer-container >*:first-child,
